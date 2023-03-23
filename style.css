@@ -1,0 +1,23 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Debug */
+.blocco{
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+    }
+
+    .pincopallo{
+        width: 150px;
+        height: 100px;
+        background-image: url(img1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
