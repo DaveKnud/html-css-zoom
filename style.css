@@ -4,20 +4,91 @@ padding: 0;
 box-sizing: border-box;
 }
 
-/* Debug */
+header{
+    background-color: black;
+    height: 60px;
+    ;
+   }
+
+.box-header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    height: 60px;
+}
+
+/* MAIN */
+
+
 .blocco{
-    height: 100vh;
+    height: calc(100vh - 120px);
     background-color: aquamarine;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    
-    }
+ justify-content: center;
+ padding-top: 20px;
+padding-bottom: 20px ;
+ overflow: auto;
+ 
 
-    .pincopallo{
-        width: 150px;
-        height: 100px;
-        background-image: url(img1.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+    
+}
+
+.pincopallo{
+    
+    width: 200px;
+    height: 150px;
+    background-color: silver;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.nomi{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    left: 0;
+    bottom: 0;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    background-color: grey;
+    height: 60px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.symbol-footer{
+    font-size: 20px;
+    color: white;
+    padding-left: 5px;
+    text-align: center;
+}
+
+
+.text-footer{
+    font-size: 13px;
+}
+.space-footer{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.end-meeting{
+    color: red;
+    justify-content: end;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    width: 90px;
+}
